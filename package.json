@@ -1,13 +1,13 @@
 {
   "name": "linealysis",
-  "version": "0.0.0",
+  "version": "0.7",
   "description": "linealysis",
   "license": "MIT",
-  "repository": "",
+  "repository": "https://github.com/moppymopperson/linealysis",
   "author": {
-    "name": "",
-    "email": "",
-    "url": ""
+    "name": "Erik Hornberger",
+    "email": "hornbergererik@gmail.com",
+    "url": "https://github.com/moppymopperson"
   },
   "keywords": [""],
   "files": ["lib"],
@@ -15,8 +15,7 @@
   "typings": "lib/index.d.ts",
   "scripts": {
     "clean": "rimraf lib && rimraf coverage",
-    "format":
-      "prettier --write \"{src,__tests__}/**/*.ts\" --single-quote --trailing-comma es5",
+    "format": "prettier --write \"{src,__tests__}/**/*.ts\" --single-quote --trailing-comma es5",
     "lint": "tslint --force --format verbose \"src/**/*.ts\"",
     "prepare": "npm run build",
     "prebuild":
@@ -27,7 +26,9 @@
     "watch": "npm run build -- --watch",
     "watch:test": "jest --watch"
   },
-  "dependencies": {},
+  "dependencies": {
+    "npm": "5.8.0"
+  },
   "devDependencies": {
     "@types/jest": "^22.0.1",
     "@types/node": "^8.0.0",
