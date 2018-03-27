@@ -27,7 +27,7 @@ export class MessageParser {
     const header = splitText[0];
     const days = splitText.splice(1);
     const messages = [];
-    for (let k = 0; k < days.length / 2; k += 2) {
+    for (let k = 0; k < days.length; k += 2) {
       messages.push({
         dateString: days[k].trim(),
         messages: days[k + 1].trim(),
