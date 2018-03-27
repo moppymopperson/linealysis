@@ -1,10 +1,10 @@
 [![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
 
-# Linalysis
+# Linealysis
 
-Linealysis is a simple Javascript/Typescript for transforming chat history
-exported from Line into convenient immutable objects that can be used for
-personal projects.
+Linealysis is a simple Javascript/Typescript module for transforming chat
+history exported from Line into convenient immutable objects that can be used
+for personal projects.
 
 ```js
 const fs = require('fs')
